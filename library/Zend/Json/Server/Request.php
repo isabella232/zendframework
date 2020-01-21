@@ -127,7 +127,7 @@ class Request
      * Retrieve param by index or key
      *
      * @param  int|string $index
-     * @return mixed|null Null when not found
+     * @return mixed|null Null0 when not found
      */
     public function getParam($index)
     {

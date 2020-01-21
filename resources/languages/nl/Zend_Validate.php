@@ -25,11 +25,11 @@ return array(
     "Invalid type given. String expected" => "Ongeldig type opgegeven, waarde moet een string zijn",
     "The input does not appear to be a valid datetime" => "De input lijkt geen geldige datetime te zijn",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "Ongeldig type opgegeven, waarde moet een string, integer of een float zijn",
     "The input does not appear to be a float" => "De input lijkt geen geldige float te zijn",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Ongeldig type opgegeven, waarde moet een string of een integer zijn",
     "The input does not appear to be an integer" => "De input lijkt geen geldige integer te zijn",
 

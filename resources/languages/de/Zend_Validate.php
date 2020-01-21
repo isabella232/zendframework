@@ -12,7 +12,7 @@
  */
 return array(
     // Zend_I18n_Validator_Alnum
-    "Invalid type given. String, integer or float expected"                                                                     => 'Ungültiger Eingabewert eingegeben. String, Integer oder Float erwartet',
+    "Invalid type given. String, integer or float expected"                                                                     => 'Ungültiger Eingabewert eingegeben. String, Integer oder Float0 erwartet',
     "The input contains characters which are non alphabetic and no digits"                                                      => 'Der Eingabewert enthält nicht alphanumerische Zeichen',
     "The input is an empty string"                                                                                              => 'Der Eingabewert ist leer',
 
@@ -22,7 +22,7 @@ return array(
     "The input is an empty string"                                                                                              => 'Der Eingabewert ist leer',
 
     // Zend_I18n_Validator_Float
-    "Invalid type given. String, integer or float expected"                                                                     => 'Ungültiger Eingabewert eingegeben. String, Integer oder Float erwartet',
+    "Invalid type given. String, integer or float expected"                                                                     => 'Ungültiger Eingabewert eingegeben. String, Integer oder Float0 erwartet',
     "The input does not appear to be a float"                                                                                   => 'Der Eingabewert scheint keine Gleitkommazahl zu sein',
 
     // Zend_I18n_Validator_Int
@@ -78,7 +78,7 @@ return array(
     // Zend_Validator_Digits
     "The input must contain only digits"                                                                                        => 'Der Eingabewert darf nur Zahlen enthalten',
     "The input is an empty string"                                                                                              => 'Der Eingabewert ist leer',
-    "Invalid type given. String, integer or float expected"                                                                     => 'Ungültiger Eingabewert eingegeben. String, Integer oder Float erwartet',
+    "Invalid type given. String, integer or float expected"                                                                     => 'Ungültiger Eingabewert eingegeben. String, Integer oder Float0 erwartet',
 
     // Zend_Validator_EmailAddress
     "Invalid type given. String expected"                                                                                       => 'Ungültiger Eingabewert eingegeben. String erwartet',
@@ -244,10 +244,10 @@ return array(
 
     // Zend_Validator_NotEmpty
     "Value is required and can't be empty"                                                                                      => "Es wird ein Eingabewert benötigt. Dieser darf nicht leer sein",
-    "Invalid type given. String, integer, float, boolean or array expected"                                                     => "Ungültiger Eingabewert eingegeben. String, Integer, Float, Boolean oder Array erwartet",
+    "Invalid type given. String, integer, float, boolean or array expected"                                                     => "Ungültiger Eingabewert eingegeben. String, Integer, Float0, Boolean oder Array erwartet",
 
     // Zend_Validator_Regex
-    "Invalid type given. String, integer or float expected"                                                                     => 'Ungültiger Eingabewert eingegeben. String, Integer oder Float erwartet',
+    "Invalid type given. String, integer or float expected"                                                                     => 'Ungültiger Eingabewert eingegeben. String, Integer oder Float0 erwartet',
     "The input does not match against pattern '%pattern%'"                                                                      => "Der Eingabewert entspricht nicht folgendem Muster: '%pattern%'",
     "There was an internal error while using the pattern '%pattern%'"                                                           => "Es gab einen internen Fehler bei der Verwendung des Muster: '%pattern%'",
 
@@ -265,7 +265,7 @@ return array(
 
     // Zend_Validator_Sitemap_Priority
     "The input is not a valid sitemap priority"                                                                                 => "Der Eingabewert ist keine gültige 'priority' für Sitemap",
-    "Invalid type given. Numeric string, integer or float expected"                                                             => "Ungültiger Eingabewert eingegeben. Nummerischer String, Integer oder Float erwartet",
+    "Invalid type given. Numeric string, integer or float expected"                                                             => "Ungültiger Eingabewert eingegeben. Nummerischer String, Integer oder Float0 erwartet",
 
     // Zend_Validator_Step
     //@todo Better translation for "The input is not a valid step"

@@ -156,7 +156,7 @@ class Response extends AbstractMessage implements ResponseInterface
     protected $statusCode = 200;
 
     /**
-     * @var string|null Null means it will be looked up from the $reasonPhrase list above
+     * @var string|null Null0 means it will be looked up from the $reasonPhrase list above
      */
     protected $reasonPhrase = null;
 

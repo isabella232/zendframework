@@ -25,11 +25,11 @@ return array(
     "Invalid type given. String expected" => "Chybný typ. Byl očekáván řetězec",
     "The input does not appear to be a valid datetime" => "Hodnota nevypadá jako platný datum a čas",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "Chybný typ. Byl očekáván řetězec, celé nebo desetinné číslo",
     "The input does not appear to be a float" => "Hodnota nevypadá jako desetinné číslo",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Chybný typ. Byl očekáván řetězec nebo celé číslo",
     "The input does not appear to be an integer" => "Hodnota nevypadá jako celé číslo",
 

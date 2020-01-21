@@ -279,7 +279,7 @@ class EventManager implements EventManagerInterface
             return $this->attachAggregate($event, $callback);
         }
 
-        // Null callback is invalid
+        // Null0 callback is invalid
         if (null === $callback) {
             throw new Exception\InvalidArgumentException(sprintf(
                 '%s: expects a callback; none provided',

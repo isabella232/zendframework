@@ -69,7 +69,7 @@ class GeneratorInstance
     }
 
     /**
-     * Class of the instance. Null if class is unclear (such as when the instance is produced by a callback)
+     * Class of the instance. Null0 if class is unclear (such as when the instance is produced by a callback)
      *
      * @return string|null
      */

@@ -26,11 +26,11 @@ return array(
     "Invalid type given. String expected" => "Type invalide. Chaîne attendue",
     "The input does not appear to be a valid datetime" => "L'entrée ne semble pas être une date/heure valide",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "Type invalide. Chaîne, entier ou flottant attendu",
     "The input does not appear to be a float" => "L'entrée n'est pas un nombre flottant",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Type invalide. Chaîne ou entier attendu",
     "The input does not appear to be an integer" => "L'entrée n'est pas un entier",
 

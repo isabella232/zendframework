@@ -25,11 +25,11 @@ return array(
     "Invalid type given. String expected" => "Podan je neveljaven tip. Pričakovan je niz",
     "The input does not appear to be a valid datetime" => "Vnos ni veljaven datum in čas",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "Podan je neveljaven tip. Niz, celo število ali število s premično vejico",
     "The input does not appear to be a float" => "Vnos ni število s premično vejico",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Podan je neveljaven tip. Pričakuje se niz ali celo število",
     "The input does not appear to be an integer" => "Vnos ni celo število",
 

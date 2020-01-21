@@ -28,7 +28,7 @@ class AdapterPluginManager extends AbstractPluginManager
     protected $invokableClasses = array(
         'array'         => 'Zend\Paginator\Adapter\ArrayAdapter',
         'iterator'      => 'Zend\Paginator\Adapter\Iterator',
-        'null'          => 'Zend\Paginator\Adapter\Null',
+        'null'          => 'Zend\Paginator\Adapter\Null0',
     );
 
     /**

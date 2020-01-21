@@ -25,11 +25,11 @@ return array(
     "Invalid type given. String expected" => "Érvénytelen típus. Érvényes típusok: karakterláncok",
     "The input does not appear to be a valid datetime" => "A megadott érték nem tűnik érvényes dátum-idő-nek",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "Érvénytelen típus. Érvényes típusok: karakterláncok, egészek, tizedes törtek",
     "The input does not appear to be a float" => "A megadott érték nem tűnik érvényes számnak",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Érvénytelen típus. Érvényes típusok: karakterláncok, egészek",
     "The input does not appear to be an integer" => "A megadott érték nem tűnik érvényes egész számnak",
 

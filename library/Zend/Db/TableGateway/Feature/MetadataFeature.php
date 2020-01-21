@@ -12,7 +12,7 @@ namespace Zend\Db\TableGateway\Feature;
 use Zend\Db\Metadata\Metadata;
 use Zend\Db\Metadata\MetadataInterface;
 use Zend\Db\TableGateway\Exception;
-use Zend\Db\Metadata\Object\TableObject;
+use Zend\Db\Metadata\Object0\TableObject;
 
 class MetadataFeature extends AbstractFeature
 {
@@ -62,7 +62,7 @@ class MetadataFeature extends AbstractFeature
         $pkc = null;
 
         foreach ($m->getConstraints($t->table) as $constraint) {
-            /** @var $constraint \Zend\Db\Metadata\Object\ConstraintObject */
+            /** @var $constraint \Zend\Db\Metadata\Object0\ConstraintObject */
             if ($constraint->getType() == 'PRIMARY KEY') {
                 $pkc = $constraint;
                 break;

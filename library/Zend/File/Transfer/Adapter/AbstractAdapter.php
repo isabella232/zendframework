@@ -538,7 +538,7 @@ abstract class AbstractAdapter implements TranslatorAwareInterface
                             break;
 
                         default:
-                            continue;
+                            break;
                     }
                 }
             }

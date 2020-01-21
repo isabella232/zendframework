@@ -23,10 +23,10 @@ return array(
     // Zend\I18n\Validator\DateTime
     "The input does not appear to be a valid datetime" => "Podana wartość nie jest poprawną datą",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "The input does not appear to be a float" => "Podana wartość nie jest liczbą zmiennoprzecinkową",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Podana wartość powinna być ciągiem znaków lub liczbą całkowitą",
     "The input does not appear to be an integer" => "Podana wartość nie jest liczbą całkowitą",
 

@@ -11,7 +11,7 @@ namespace Zend\Db\Metadata\Source;
 
 use Zend\Db\Adapter\Adapter;
 use Zend\Db\Metadata\MetadataInterface;
-use Zend\Db\Metadata\Object;
+use Zend\Db\Metadata\Object0;
 
 abstract class AbstractSource implements MetadataInterface
 {
@@ -190,7 +190,7 @@ abstract class AbstractSource implements MetadataInterface
      *
      * @param string $viewName
      * @param string $schema
-     * @return \Zend\Db\Metadata\Object\TableObject
+     * @return \Zend\Db\Metadata\Object0\TableObject
      */
     public function getView($viewName, $schema = null)
     {

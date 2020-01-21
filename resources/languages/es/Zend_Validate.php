@@ -25,11 +25,11 @@ return array(
     "Invalid type given. String expected" => "El tipo especificado no es válido. El valor debe ser una cadena de texto",
     "The input does not appear to be a valid datetime" => "El valor especificado no parece ser una fecha válida",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "El tipo especificado no es válido. El valor debe ser de tipo punto flotante, cadena de texto o entero",
     "The input does not appear to be a float" => "El valor especificado no parece ser un número de punto flotante",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "El tipo especificado no es válido. El valor debe ser de tipo cadena de texto o entero",
     "The input does not appear to be an integer" => "El valor especificado no parece ser un número entero",
 

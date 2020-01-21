@@ -25,11 +25,11 @@ return array(
     "Invalid type given. String expected" => "不正な形式です。文字列が期待されています",
     "The input does not appear to be a valid datetime" => "入力値は正しい日時ではないようです",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "不正な形式です。文字列、整数、もしくは小数が期待されています",
     "The input does not appear to be a float" => " 入力値は小数ではないようです",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "不正な形式です。文字列もしくは整数が期待されています",
     "The input does not appear to be an integer" => " 入力値は整数ではないようです",
 

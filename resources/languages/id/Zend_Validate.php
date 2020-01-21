@@ -23,10 +23,10 @@ return array(
     // Zend\I18n\Validator\DateTime
     "The input does not appear to be a valid datetime" => "Isian tidak tampak sebagai datetime yang valid",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "The input does not appear to be a float" => "Isian tidak tampak sebagai float",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Tipe yang diberikan tidak valid. Diharapkan string atau integer",
     "The input does not appear to be an integer" => "Isian tidak tampak sebagai integer",
 

@@ -25,11 +25,11 @@ return array(
     "Invalid type given. String expected" => "Tipus no vàlid donat. S'espera una cadena de text",
     "The input does not appear to be a valid datetime" => "L'entrada no sembla ser un datetime vàlid",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "Tipus no vàlid donat. S'espera una cadena de text, un enter o un nombre de precisió simple",
     "The input does not appear to be a float" => "L'entrada no sembla ser un nombre de precisió simple",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Tipus no vàlid donat. S'espera una cadena de text o un enter",
     "The input does not appear to be an integer" => "L'entrada no sembla ser un nombre enter",
 

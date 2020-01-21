@@ -25,11 +25,11 @@ return array(
     "Invalid type given. String expected" => "Tipo di dato non valido. Era attesto un dato di tipo string",
     "The input does not appear to be a valid datetime" => "L'input non sembra essere una combinazione valida di data e orario",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "Tipo di dato non valido. Era atteso un dato di tipo string, float o integer",
     "The input does not appear to be a float" => "L'input non sembra essere un dato di tipo float",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Tipo di dato non valido. Era atteso un dato di tipo string o integer",
     "The input does not appear to be an integer" => "L'input non sembra essere un intero",
 

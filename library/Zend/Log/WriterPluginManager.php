@@ -25,7 +25,7 @@ class WriterPluginManager extends AbstractPluginManager
         'firephp'        => 'Zend\Log\Writer\FirePhp',
         'mail'           => 'Zend\Log\Writer\Mail',
         'mock'           => 'Zend\Log\Writer\Mock',
-        'null'           => 'Zend\Log\Writer\Null',
+        'null'           => 'Zend\Log\Writer\Null0',
         'stream'         => 'Zend\Log\Writer\Stream',
         'syslog'         => 'Zend\Log\Writer\Syslog',
         'zendmonitor'    => 'Zend\Log\Writer\ZendMonitor',

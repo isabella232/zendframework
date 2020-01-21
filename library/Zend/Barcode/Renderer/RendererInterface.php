@@ -9,7 +9,7 @@
 
 namespace Zend\Barcode\Renderer;
 
-use Zend\Barcode\Object\ObjectInterface;
+use Zend\Barcode\Object0\ObjectInterface;
 
 /**
  * Class for rendering the barcode

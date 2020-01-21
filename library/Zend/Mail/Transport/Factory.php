@@ -19,7 +19,7 @@ abstract class Factory
      */
     protected static $classMap = array(
         'file'      => 'Zend\Mail\Transport\File',
-        'null'      => 'Zend\Mail\Transport\Null',
+        'null'      => 'Zend\Mail\Transport\Null0',
         'sendmail'  => 'Zend\Mail\Transport\Sendmail',
         'smtp'      => 'Zend\Mail\Transport\Smtp',
     );

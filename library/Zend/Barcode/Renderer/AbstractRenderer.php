@@ -12,7 +12,7 @@ namespace Zend\Barcode\Renderer;
 use Traversable;
 use Zend\Barcode\Barcode;
 use Zend\Barcode\Exception as BarcodeException;
-use Zend\Barcode\Object;
+use Zend\Barcode\Object0;
 use Zend\Stdlib\ArrayUtils;
 
 /**

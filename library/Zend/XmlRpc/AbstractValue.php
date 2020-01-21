@@ -201,7 +201,7 @@ abstract class AbstractValue
                 return new Value\Boolean($value);
 
             case self::XMLRPC_TYPE_STRING:
-                return new Value\String($value);
+                return new Value\String0($value);
 
             case self::XMLRPC_TYPE_BASE64:
                 return new Value\Base64($value);
@@ -306,7 +306,7 @@ abstract class AbstractValue
                 // Fall through to the next case
             default:
                 // If type isn't identified (or identified as string), it treated as string
-                return new Value\String($value);
+                return new Value\String0($value);
         }
     }
 
@@ -345,7 +345,7 @@ abstract class AbstractValue
                 $xmlrpcValue = new Value\Boolean($value);
                 break;
             case self::XMLRPC_TYPE_STRING:
-                $xmlrpcValue = new Value\String($value);
+                $xmlrpcValue = new Value\String0($value);
                 break;
             case self::XMLRPC_TYPE_DATETIME:  // The value should already be in an iso8601 format
                 $xmlrpcValue = new Value\DateTime($value);

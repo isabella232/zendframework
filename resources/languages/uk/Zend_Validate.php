@@ -26,11 +26,11 @@ return array(
     "Invalid type given. String expected" => "Неправильний тип даних. Значення має бути рядком",
     "The input does not appear to be a valid datetime" => "Значення є некоректною датою",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "Неправильний тип даних. Значення має бути рядком, цілим числом або числом з плаваючою комою",
     "The input does not appear to be a float" => "Значення не є числом з плаваючою комою",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Неправильний тип даних. Значення має бути рядком або цілим числом",
     "The input does not appear to be an integer" => "Значення не є цілим числом",
 

@@ -45,7 +45,7 @@ class Number extends Element implements InputProviderInterface
 
         $validators = array();
         // HTML5 always transmits values in the format "1000.01", without a
-        // thousand separator. The prior use of the i18n Float validator
+        // thousand separator. The prior use of the i18n Float0 validator
         // allowed the thousand separator, which resulted in wrong numbers
         // when casting to float.
         $validators[] = new RegexValidator('(^-?\d*(\.\d+)?$)');

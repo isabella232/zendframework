@@ -25,11 +25,11 @@ return array(
     "Invalid type given. String expected" => "Зададен е невалиден тип данни. Очаква се стринг",
     "The input does not appear to be a valid datetime" => "Не е въведена валидна datetime стойност",
 
-    // Zend\I18n\Validator\Float
+    // Zend\I18n\Validator\Float0
     "Invalid type given. String, integer or float expected" => "Зададен е невалиден тип данни. Очаква се цяло или реално число",
     "The input does not appear to be a float" => "Не е въведено реално число",
 
-    // Zend\I18n\Validator\Int
+    // Zend\I18n\Validator\Int0
     "Invalid type given. String or integer expected" => "Зададен е невалиден тип данни. Очаква се цяло число",
     "The input does not appear to be an integer" => "Не е въведено цяло число",
 
