@@ -111,7 +111,7 @@ class FeedSet extends ArrayObject
      * @param string $offset
      * @return mixed
      */
-    public function offsetGet($offset)
+    public function &offsetGet($offset)
     {
         if ($offset == 'feed' && !$this->offsetExists('feed')) {
             if (!$this->offsetExists('href')) {

@@ -395,6 +395,7 @@ class HeadLink extends Placeholder\Container\AbstractStandalone
             }
         }
 
+        $extras = [];
         if (0 < count($args) && is_array($args[0])) {
             $extras = array_shift($args);
             $extras = (array) $extras;

@@ -129,7 +129,7 @@ class Variables extends ArrayObject
      * @param  mixed $key
      * @return mixed
      */
-    public function offsetGet($key)
+    public function &offsetGet($key)
     {
         if (!$this->offsetExists($key)) {
             if ($this->isStrict()) {
