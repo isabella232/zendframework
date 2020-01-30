@@ -138,16 +138,17 @@ class Variables extends ArrayObject
                     $key
                 ), E_USER_NOTICE);
             }
-        } else {
-            $return = parent::offsetGet($key);
-
-            // If we have a closure/functor, invoke it, and return its return value
-            if (is_object($return) && is_callable($return)) {
-                $return = call_user_func($return);
-            }
-    
+            $return = null;
             return $return;
         }
+        $return = parent::offsetGet($key);
+
+        // If we have a closure/functor, invoke it, and return its return value
+        if (is_object($return) && is_callable($return)) {
+            $return = call_user_func($return);
+        }
+
+        return $return;
     }
 
     /**

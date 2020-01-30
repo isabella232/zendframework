@@ -79,7 +79,11 @@ abstract class AbstractResultSet implements Iterator, ResultSetInterface
             $first = current($dataSource);
             reset($dataSource);
             $this->count = count($dataSource);
-            $this->fieldCount = count($first);
+            if (is_array($first) || $first instanceof \Countable) {
+                $this->fieldCount = count($first);
+            }else{
+                $this->fieldCount = 0;
+            }
             $this->dataSource = new ArrayIterator($dataSource);
             $this->buffer = -1; // array's are a natural buffer
         } elseif ($dataSource instanceof IteratorAggregate) {
